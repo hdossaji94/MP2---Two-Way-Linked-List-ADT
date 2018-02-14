@@ -1,0 +1,19 @@
+Prof. Harlan Russell
+ECE 223, MP1, Fall 2015
+test1 empty list
+designed for a list size of 4
+
+REMOVE 1
+SCAN 10
+LIST 1
+PRINT
+
+
+Output must be:
+/    Did not remove: 1
+/    No records with >= 10 matches
+/    Did not find: 1
+/    List empty
+/    cleanup
+QUIT
+

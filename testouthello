@@ -1,0 +1,178 @@
+// testouthello
+// Huzefa Dossaji
+// hdossaj
+// ECE 2230 Fall 2015
+// MP2
+// output file with comments
+
+
+Welcome to lab2. Possible commands:
+Sorted list: INSERT x; LIST x; REMOVE x; SCAN x; PRINT
+Queue      : ADDTAIL x; RMHEAD; PRINTQ
+           : STATS; QUIT
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 3 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 1 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 7 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 10 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 6 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 7 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 7 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 8 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 8 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 10 into list
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Inserted 8 into list
+// INSERTED ALL THE PACKETS SUCCESSFULLY
+
+# // Test 2 LIST 3 8'S
+Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 12
+Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 13
+Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 15
+Found 3 packets matching 8
+1: Dest IP: 1, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 6
+2: Dest IP: 3, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 5
+3: Dest IP: 6, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 9
+4: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 7
+5: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 10
+6: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 11
+7: Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 12
+8: Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 13
+9: Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 15
+10: Dest IP: 10, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 8
+11: Dest IP: 10, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 14
+List contains 11 records.
+// TEST SUCCESSFULLY PRINTED 3 8S THAT WERE IN THE LIST
+
+# // Test 3 scan for threshold 3, you should get 3 7s and 3 8s
+A set with address 7 has 3 packets
+A set with address 8 has 3 packets
+Scan found 2 sets
+1: Dest IP: 1, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 6
+2: Dest IP: 3, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 5
+3: Dest IP: 6, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 9
+4: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 7
+5: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 10
+6: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 11
+7: Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 12
+8: Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 13
+9: Dest IP: 8, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 15
+10: Dest IP: 10, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 8
+11: Dest IP: 10, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 14
+List contains 11 records.
+
+# 
+Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 7
+Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 10
+Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 11
+Found 3 packets matching 7
+# 
+// TEST FOUND ALL PACKETS THAT CONTAINED ATLEAST 3 OF THE SAME DEST IP. IT ALSO LISTED ALL THE 7S SUCCESSFULLY
+
+# // Test 4 remove all 8's and all 10's and print. should be 1, 3, 6, 7, 7, 7
+Removed 3 packets matching 8
+Removed 2 packets matching 10
+1: Dest IP: 1, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 6
+2: Dest IP: 3, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 5
+3: Dest IP: 6, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 9
+4: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 7
+5: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 10
+6: Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 11
+List contains 6 records.
+
+// TEST REMOVED ALL 8S AND ALL 10S SUCCESSFULLY AND PRINTED OUT THE RESULTING LIST
+# 
+# // Test 4 List 7, should get 3 7s.
+Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 7
+Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 10
+Dest IP: 7, Src: 1, Dest port: 1, Src: 1, Hop Count: 1 Prot: 1 Score: 1, Time: 11
+Found 3 packets matching 7
+# 
+// TEST SUCCESSFULY FOUND ALL THREE 7S WHEN CALLING LIST 7
+
+# // Test 5, Scan 3, should get 3 packets of 7
+A set with address 7 has 3 packets
+Scan found 1 sets
+# 
+// TEST FOUND ALL PACKETS WITH ATLEAST 3 OF THE SAME DEST IP. THE ONLY ONE LEFT IS 7
+
+
+# //Test 6, List 8, should get no packets found for 8
+Did not find: 8
+# 
+// TEST 6 SUCCESFULLY PRINTED THAT NO 8S WERE IN THE LIST AFTER CALLING LIST 8
+
+# // Test 7, remove all packets and print, list should be empty
+Removed 1 packets matching 1
+Removed 1 packets matching 3
+Removed 1 packets matching 6
+Removed 3 packets matching 7
+List is empty
+
+// TEST SUCCESSFULLY REMOVED ALL PACKETS FROM THE LIST AND PRINTED LIST IS EMPTY WHEN PRINT WAS CALLED
+# 
+# // Test 8, check to see if Scan and List and remove all work with no packets in the list
+Scan found no records with >= 4 matches
+Did not find: 5
+Did not remove: 3
+# 
+// SCAN, LIST AND REMOVE SUCCESFFULY PRINTED THE WRITE STATEMENTS WHEN NO PACKETS WERE FOUND IN THE LIST WITH THEIR DESIRED DEST IP OR THRESHOLD 
+
+# // Test 9 , check the unsorted list now, add a few tails and print, should be 9,7,10
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Appended 9 onto queue
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Appended 7 onto queue
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Appended 10 onto queue
+1: Dest IP: 9, Src: 4, Dest port: 6, Src: 2, Hop Count: 5 Prot: 2 Score: 5, Time: 9
+2: Dest IP: 7, Src: 3, Dest port: 5, Src: 2, Hop Count: 6 Prot: 2 Score: 5, Time: 2
+3: Dest IP: 10, Src: 5, Dest port: 2, Src: 5, Hop Count: 2 Prot: 5 Score: 3, Time: 5
+Queue contains 3 records.
+
+# 
+// TEST FOR THE UNSORTED LIST SUCCESFFULLY ADDAED 3 TAILS IN THE RIGH ORDER AND PRINTED IT OUT
+
+# // Test 10, addtail with same ip address and check if old is removed and new is added to the tail, should be 9,10,7
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Appended 10 onto queue and removed old copy
+Source IP address:Destination port number:Source port number:Hop count:Protocol:Threat Score:Time:
+Appended 7 onto queue and removed old copy
+1: Dest IP: 9, Src: 4, Dest port: 6, Src: 2, Hop Count: 5 Prot: 2 Score: 5, Time: 9
+2: Dest IP: 10, Src: 4, Dest port: 6, Src: 2, Hop Count: 5 Prot: 3 Score: 5, Time: 6
+3: Dest IP: 7, Src: 4, Dest port: 6, Src: 2, Hop Count: 5 Prot: 2 Score: 5, Time: 2
+Queue contains 3 records.
+
+# 
+// TEST 10 SUCCESFULLY ADDED 2 NEW PACKETS AND REMOVED THE OLD PACKETS WITH THE SAME DEST IP ADDRESS
+
+# // Test 11, remove head twice and print, should be just 7
+Deleted head with IP addr: 9
+Deleted head with IP addr: 10
+1: Dest IP: 7, Src: 4, Dest port: 6, Src: 2, Hop Count: 5 Prot: 2 Score: 5, Time: 2
+Queue contains 1 record.
+
+# 
+// TEST SUCCESFFULY REMOVED THAT FIRST 2 PACKETS WHEN REMHEAD WAS CALLED TWICE
+
+# // Test 12, now remove all packets and check if rmhead and printq works with nothing in the list
+Deleted head with IP addr: 7
+Queue is empty
+
+Queue empty, did not remove
+Queue is empty
+
+#// TEST SUCCESFULLY REMOVED EVERYTHING IN THE LIST AND RMHEAD AND PRINTQ CORRECTLY PRINTED RIGHT WHEN NOTHING WAS IN THE LIST 
+# 
+Goodbye
+
+// QUIT TEST SUCCESSFULLY LEFT THE PROGRAM WITH NO ERRORS AND NO MEMORY LEAKS. 
